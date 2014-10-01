@@ -1,4 +1,4 @@
-crittercism
+Crittercism
 ===========
 
-Examples of code for crittercism ebook
+Examples of code for Crittercism ebook
