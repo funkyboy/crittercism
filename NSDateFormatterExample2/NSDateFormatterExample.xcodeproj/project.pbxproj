@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D34C0DC91910ED1B003A60C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C0DC81910ED1B003A60C0 /* Foundation.framework */; };
+		D34C0DCB1910ED1B003A60C0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C0DCA1910ED1B003A60C0 /* CoreGraphics.framework */; };
+		D34C0DCD1910ED1B003A60C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C0DCC1910ED1B003A60C0 /* UIKit.framework */; };
+		D34C0DD31910ED1B003A60C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D34C0DD11910ED1B003A60C0 /* InfoPlist.strings */; };
+		D34C0DD51910ED1B003A60C0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D34C0DD41910ED1B003A60C0 /* main.m */; };
+		D34C0DD91910ED1B003A60C0 /* SMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D34C0DD81910ED1B003A60C0 /* SMAppDelegate.m */; };
+		D34C0DDC1910ED1B003A60C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D34C0DDA1910ED1B003A60C0 /* Main.storyboard */; };
+		D34C0DDF1910ED1B003A60C0 /* SMMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D34C0DDE1910ED1B003A60C0 /* SMMasterViewController.m */; };
+		D34C0DE41910ED1B003A60C0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D34C0DE31910ED1B003A60C0 /* Images.xcassets */; };
+		D34C0DEB1910ED1B003A60C0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C0DEA1910ED1B003A60C0 /* XCTest.framework */; };
+		D34C0DEC1910ED1B003A60C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C0DC81910ED1B003A60C0 /* Foundation.framework */; };
+		D34C0DED1910ED1B003A60C0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D34C0DCC1910ED1B003A60C0 /* UIKit.framework */; };
+		D34C0DF51910ED1B003A60C0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D34C0DF31910ED1B003A60C0 /* InfoPlist.strings */; };
+		D34C0DF71910ED1B003A60C0 /* NSDateFormatterExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D34C0DF61910ED1B003A60C0 /* NSDateFormatterExampleTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D34C0DEE1910ED1B003A60C0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D34C0DBD1910ED1B003A60C0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D34C0DC41910ED1B003A60C0;
+			remoteInfo = NSDateFormatterExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D34C0DC51910ED1B003A60C0 /* NSDateFormatterExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSDateFormatterExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34C0DC81910ED1B003A60C0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D34C0DCA1910ED1B003A60C0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D34C0DCC1910ED1B003A60C0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D34C0DD01910ED1B003A60C0 /* NSDateFormatterExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateFormatterExample-Info.plist"; sourceTree = "<group>"; };
+		D34C0DD21910ED1B003A60C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D34C0DD41910ED1B003A60C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D34C0DD61910ED1B003A60C0 /* NSDateFormatterExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatterExample-Prefix.pch"; sourceTree = "<group>"; };
+		D34C0DD71910ED1B003A60C0 /* SMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMAppDelegate.h; sourceTree = "<group>"; };
+		D34C0DD81910ED1B003A60C0 /* SMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMAppDelegate.m; sourceTree = "<group>"; };
+		D34C0DDB1910ED1B003A60C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D34C0DDD1910ED1B003A60C0 /* SMMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMMasterViewController.h; sourceTree = "<group>"; };
+		D34C0DDE1910ED1B003A60C0 /* SMMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMMasterViewController.m; sourceTree = "<group>"; };
+		D34C0DE31910ED1B003A60C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D34C0DE91910ED1B003A60C0 /* NSDateFormatterExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSDateFormatterExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34C0DEA1910ED1B003A60C0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D34C0DF21910ED1B003A60C0 /* NSDateFormatterExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSDateFormatterExampleTests-Info.plist"; sourceTree = "<group>"; };
+		D34C0DF41910ED1B003A60C0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D34C0DF61910ED1B003A60C0 /* NSDateFormatterExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSDateFormatterExampleTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D34C0DC21910ED1B003A60C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C0DCB1910ED1B003A60C0 /* CoreGraphics.framework in Frameworks */,
+				D34C0DCD1910ED1B003A60C0 /* UIKit.framework in Frameworks */,
+				D34C0DC91910ED1B003A60C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34C0DE61910ED1B003A60C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C0DEB1910ED1B003A60C0 /* XCTest.framework in Frameworks */,
+				D34C0DED1910ED1B003A60C0 /* UIKit.framework in Frameworks */,
+				D34C0DEC1910ED1B003A60C0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D34C0DBC1910ED1B003A60C0 = {
+			isa = PBXGroup;
+			children = (
+				D34C0DCE1910ED1B003A60C0 /* NSDateFormatterExample */,
+				D34C0DF01910ED1B003A60C0 /* NSDateFormatterExampleTests */,
+				D34C0DC71910ED1B003A60C0 /* Frameworks */,
+				D34C0DC61910ED1B003A60C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D34C0DC61910ED1B003A60C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0DC51910ED1B003A60C0 /* NSDateFormatterExample.app */,
+				D34C0DE91910ED1B003A60C0 /* NSDateFormatterExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D34C0DC71910ED1B003A60C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0DC81910ED1B003A60C0 /* Foundation.framework */,
+				D34C0DCA1910ED1B003A60C0 /* CoreGraphics.framework */,
+				D34C0DCC1910ED1B003A60C0 /* UIKit.framework */,
+				D34C0DEA1910ED1B003A60C0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D34C0DCE1910ED1B003A60C0 /* NSDateFormatterExample */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0DD71910ED1B003A60C0 /* SMAppDelegate.h */,
+				D34C0DD81910ED1B003A60C0 /* SMAppDelegate.m */,
+				D34C0DDA1910ED1B003A60C0 /* Main.storyboard */,
+				D34C0DDD1910ED1B003A60C0 /* SMMasterViewController.h */,
+				D34C0DDE1910ED1B003A60C0 /* SMMasterViewController.m */,
+				D34C0DE31910ED1B003A60C0 /* Images.xcassets */,
+				D34C0DCF1910ED1B003A60C0 /* Supporting Files */,
+			);
+			path = NSDateFormatterExample;
+			sourceTree = "<group>";
+		};
+		D34C0DCF1910ED1B003A60C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0DD01910ED1B003A60C0 /* NSDateFormatterExample-Info.plist */,
+				D34C0DD11910ED1B003A60C0 /* InfoPlist.strings */,
+				D34C0DD41910ED1B003A60C0 /* main.m */,
+				D34C0DD61910ED1B003A60C0 /* NSDateFormatterExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D34C0DF01910ED1B003A60C0 /* NSDateFormatterExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0DF61910ED1B003A60C0 /* NSDateFormatterExampleTests.m */,
+				D34C0DF11910ED1B003A60C0 /* Supporting Files */,
+			);
+			path = NSDateFormatterExampleTests;
+			sourceTree = "<group>";
+		};
+		D34C0DF11910ED1B003A60C0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D34C0DF21910ED1B003A60C0 /* NSDateFormatterExampleTests-Info.plist */,
+				D34C0DF31910ED1B003A60C0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D34C0DC41910ED1B003A60C0 /* NSDateFormatterExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34C0DFA1910ED1B003A60C0 /* Build configuration list for PBXNativeTarget "NSDateFormatterExample" */;
+			buildPhases = (
+				D34C0DC11910ED1B003A60C0 /* Sources */,
+				D34C0DC21910ED1B003A60C0 /* Frameworks */,
+				D34C0DC31910ED1B003A60C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSDateFormatterExample;
+			productName = NSDateFormatterExample;
+			productReference = D34C0DC51910ED1B003A60C0 /* NSDateFormatterExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D34C0DE81910ED1B003A60C0 /* NSDateFormatterExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D34C0DFD1910ED1B003A60C0 /* Build configuration list for PBXNativeTarget "NSDateFormatterExampleTests" */;
+			buildPhases = (
+				D34C0DE51910ED1B003A60C0 /* Sources */,
+				D34C0DE61910ED1B003A60C0 /* Frameworks */,
+				D34C0DE71910ED1B003A60C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D34C0DEF1910ED1B003A60C0 /* PBXTargetDependency */,
+			);
+			name = NSDateFormatterExampleTests;
+			productName = NSDateFormatterExampleTests;
+			productReference = D34C0DE91910ED1B003A60C0 /* NSDateFormatterExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D34C0DBD1910ED1B003A60C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Cesare Rocchi";
+				TargetAttributes = {
+					D34C0DE81910ED1B003A60C0 = {
+						TestTargetID = D34C0DC41910ED1B003A60C0;
+					};
+				};
+			};
+			buildConfigurationList = D34C0DC01910ED1B003A60C0 /* Build configuration list for PBXProject "NSDateFormatterExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D34C0DBC1910ED1B003A60C0;
+			productRefGroup = D34C0DC61910ED1B003A60C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D34C0DC41910ED1B003A60C0 /* NSDateFormatterExample */,
+				D34C0DE81910ED1B003A60C0 /* NSDateFormatterExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D34C0DC31910ED1B003A60C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C0DE41910ED1B003A60C0 /* Images.xcassets in Resources */,
+				D34C0DD31910ED1B003A60C0 /* InfoPlist.strings in Resources */,
+				D34C0DDC1910ED1B003A60C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34C0DE71910ED1B003A60C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C0DF51910ED1B003A60C0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D34C0DC11910ED1B003A60C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C0DD91910ED1B003A60C0 /* SMAppDelegate.m in Sources */,
+				D34C0DD51910ED1B003A60C0 /* main.m in Sources */,
+				D34C0DDF1910ED1B003A60C0 /* SMMasterViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D34C0DE51910ED1B003A60C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D34C0DF71910ED1B003A60C0 /* NSDateFormatterExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D34C0DEF1910ED1B003A60C0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D34C0DC41910ED1B003A60C0 /* NSDateFormatterExample */;
+			targetProxy = D34C0DEE1910ED1B003A60C0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D34C0DD11910ED1B003A60C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34C0DD21910ED1B003A60C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D34C0DDA1910ED1B003A60C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34C0DDB1910ED1B003A60C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D34C0DF31910ED1B003A60C0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D34C0DF41910ED1B003A60C0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D34C0DF81910ED1B003A60C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D34C0DF91910ED1B003A60C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D34C0DFB1910ED1B003A60C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateFormatterExample/NSDateFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "NSDateFormatterExample/NSDateFormatterExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D34C0DFC1910ED1B003A60C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateFormatterExample/NSDateFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "NSDateFormatterExample/NSDateFormatterExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D34C0DFE1910ED1B003A60C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDateFormatterExample.app/NSDateFormatterExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateFormatterExample/NSDateFormatterExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "NSDateFormatterExampleTests/NSDateFormatterExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D34C0DFF1910ED1B003A60C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/NSDateFormatterExample.app/NSDateFormatterExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NSDateFormatterExample/NSDateFormatterExample-Prefix.pch";
+				INFOPLIST_FILE = "NSDateFormatterExampleTests/NSDateFormatterExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D34C0DC01910ED1B003A60C0 /* Build configuration list for PBXProject "NSDateFormatterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34C0DF81910ED1B003A60C0 /* Debug */,
+				D34C0DF91910ED1B003A60C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34C0DFA1910ED1B003A60C0 /* Build configuration list for PBXNativeTarget "NSDateFormatterExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34C0DFB1910ED1B003A60C0 /* Debug */,
+				D34C0DFC1910ED1B003A60C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D34C0DFD1910ED1B003A60C0 /* Build configuration list for PBXNativeTarget "NSDateFormatterExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D34C0DFE1910ED1B003A60C0 /* Debug */,
+				D34C0DFF1910ED1B003A60C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D34C0DBD1910ED1B003A60C0 /* Project object */;
+}
